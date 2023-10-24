@@ -5,6 +5,7 @@ import Mywork1 from "../Images/Helina Yeptho (1)/0L0A1625 1.png"
 import Mywork2 from "../Images/Helina Yeptho (1)/0L0A2221 1.png"
 import Mywork3 from "../Images/Helina Yeptho (1)/0L0A2539 1.png"
 import Mywork4 from "../Images/Helina Yeptho (1)/0L0A2636 1.png"
+import aboutme from "../Images/aboutme.jpg"
 
 function AboutMe() {
     return ( 
@@ -19,10 +20,10 @@ function AboutMe() {
     <div class="card mb-3" style={{maxwidth:"540px"}}>
   <div class="row g-0">
     <div class="col-md-4">
-      <img className="Aboutcard-image" src="https://images.unsplash.com/photo-1562583489-bf23ec64651d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmVtYWxlJTIwcGhvdG9ncmFwaGVyfGVufDB8fDB8fHww&w=1000&q=80" class="img-fluid rounded-start" alt="..."/>
+      <img  src={aboutme} className="img-fluid rounded-start" alt="..."/>
     </div>
     <div class="col-md-8">
-      <div class="card-body">
+      <div class="card-body" >
         <h1 class="card-title" style={{fontSize:"40px"}}>Helina Yepthio</h1>
         <h3 class="card-text" style={{fontSize:"20px"}}>I am Passionate in Photography, This is always my desire to be a phptographer.I enjoy clicking and I never get bored in this beautiful career.I cover all types of photos but specialized in wedding photography and clicking portraits.I am Passionate in Photography, This is always my desire to be a phptographer.</h3>
         <button type="button" class="btn btn-success">Read More</button>
@@ -32,7 +33,7 @@ function AboutMe() {
 </div>
  
 </div>
-<div className="Aboutmefootertext">
+<div className="Aboutmefootertext" style={{display:"flex",justifyContent:"center"}}>
 <p className="AMtext">
     "If passion drives you,"
   </p>
@@ -48,9 +49,9 @@ function AboutMe() {
     ---  The Helina Yeptho Photography ---
   </p>
 </div>
-<div className="myworklogo">
+<div className="myworklogo" style={{display:"flex",justifyContent:"center"}}>
 <div>
-                <img style={{marginLeft:"600px", marginTop:"100px", height:"115px", width:"138px"}} src={Worklogo} alt="..."/>
+                <img style={{ marginTop:"100px", height:"115px", width:"138px"}} src={Worklogo} alt="..."/>
             </div>
 </div>
 <div className="mywork">

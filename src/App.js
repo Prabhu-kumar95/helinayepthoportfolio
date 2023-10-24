@@ -5,13 +5,13 @@ import AboutMe from './Pages/AboutMe';
 import { Routes,Route } from 'react-router-dom';
 import BasicTabs from './Pages/BasicTabs';
 import HireMe from './Pages/HireMe';
-import NavMenu from './NavComponents/Navbar';
+import NavBar from './NavComponents/Nav';
 
 
 function App() {
   return (
     <div className="App">
-      <NavMenu></NavMenu>
+      <NavBar></NavBar>
       <Routes>
       <Route exact path="/" Component={Home} /> 
       <Route exact path="/Gallery" Component={BasicTabs} /> 

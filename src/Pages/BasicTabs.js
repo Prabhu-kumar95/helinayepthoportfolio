@@ -57,7 +57,10 @@ export default function BasicTabs() {
 ,borderRadius:"10px",backgroundColor:"rgba(255, 255, 255, 1)"}}>
       <Box sx={{ borderBottom: 1, borderColor: 'silver',borderRadius:"8px"}}>
       
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+        <Tabs style={{color:"black"}} value={value} onChange={handleChange}  variant="scrollable"
+  scrollButtons
+  allowScrollButtonsMobile
+  aria-label="scrollable force tabs example">
             
           <Tab sx={{fontSize:"18px",fontFamily:"cursive",marginLeft:"170px",color:"black"}} label="Portrait" {...a11yProps(0)} />
           <Tab  sx={{fontSize:"18px",fontFamily:"cursive",color:"black",marginLeft:"80px"}} label="Couple" {...a11yProps(1)} />
