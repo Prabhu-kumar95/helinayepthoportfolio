@@ -24,9 +24,9 @@ function AboutMe() {
     </div>
     <div class="col-md-8">
       <div class="card-body" >
-        <h1 class="card-title" style={{fontSize:"40px"}}>Helina Yepthio</h1>
-        <h3 class="card-text" style={{fontSize:"20px"}}>I am Passionate in Photography, This is always my desire to be a phptographer.I enjoy clicking and I never get bored in this beautiful career.I cover all types of photos but specialized in wedding photography and clicking portraits.I am Passionate in Photography, This is always my desire to be a phptographer.</h3>
-        <button type="button" class="btn btn-success">Read More</button>
+        <h1 class="aboutcard-title" >Helina Yepthio</h1>
+        <h3 class="aboutcard-text" >I am Passionate in Photography, This is always my desire to be a phptographer.I enjoy clicking and I never get bored in this beautiful career.I cover all types of photos but specialized in wedding photography and clicking portraits.I am Passionate in Photography, This is always my desire to be a phptographer.</h3>
+        <button style={{width:"150px"}} type="button" class="btn btn-success">Read More</button>
       </div>
     </div>
   </div>
@@ -40,7 +40,7 @@ function AboutMe() {
  
 </div>
 <div className="Aboutmefootertext">
-<p >
+<p className="AMtext-b">
     "let reason hold the reins"
   </p>
 </div>
@@ -57,7 +57,7 @@ function AboutMe() {
 <div className="mywork">
   <p className="myworktext">My Work</p>
 </div>
-<div class="row  row-cols-1 row-cols-md-4 g-4" style={{borderRadius:"5px", width:"90%",marginLeft:"80px"}}>
+<div class="row  row-cols-1 row-cols-md-4 g-4" >
   <div class="col">
     <div class="card1 h-100">
       <img src={Mywork2} class="card-img-top" alt="..."/>
@@ -100,13 +100,13 @@ function AboutMe() {
   </div>
 </div>
 <div className="Aboutmefootertext2">
-<p className="AMtext1">
+<p className="AMtext-1">
     See My Light's Stories,
   </p>
  
 </div>
 <div className="Aboutmefootertext2">
-<p >
+<p className="AMtext-2">
     Will Make Same One For You.
   </p>
 </div>

@@ -111,6 +111,15 @@ justify-content: center;
   border-radius: 10px;
   margin-left: 2px;
   margin-top: 20px;
+} 
+@media all and (max-width:500px) {
+  .Image{
+    width: 170px; 
+    height: 250px; 
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+  } 
 }
 .Imagecontainer{
   background-color: rgba(35, 16, 44, 1);  
@@ -118,7 +127,16 @@ justify-content: center;
   border-radius: 0 0 70% 70%;
 }
 
-
+@media all and (max-width: 500px) {
+  .Ftext{
+    margin-top: 40px;
+    font-size: 20px;
+    
+    
+   display: flex;
+   justify-content: center;
+ }
+}
   .Footertext{
     margin-top: 40px;
     font-size: 48px;
@@ -169,13 +187,43 @@ justify-content: center;
   margin-left: 20px;
   margin-bottom:20px ;
   border-radius: 5px;
-} 
+}  
+@media all and (max-width:500px) {
+  .img-fluid{
+    height: 330px; 
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom:20px ;
+    border-radius: 5px;
+  }  
+ }
 .card-body{
    margin-top: 30px;
    margin-left: 40px; 
    color: white;
    overflow: hidden;
-}
+} 
+ .aboutcard-title{
+font-size: 40px;
+ }  
+ @media all and (max-width:500px) {
+  .aboutcard-title{
+    font-size: 40px;
+    margin-left: -10px;
+    
+     }  
+ }
+ .aboutcard-text{
+font-size: 20px;
+ } 
+ @media all and (max-width:500px) {
+  .aboutcard-text{
+    font-size: 15px;  
+    margin-left: -10px;
+     }  
+     
+ }
 .Aboutmefootertext{
   
   display: flex;
@@ -187,8 +235,19 @@ justify-content: center;
 }
 .AMtext{
   margin-top: 50px;
-}
-
+} 
+@media all and (max-width:500px) {
+  .AMtext{
+    margin-top: 300px; 
+    font-size: 30px;
+  } 
+ }
+ @media all and (max-width:500px) {
+  .AMtext-b{
+    margin-top: 10px; 
+    font-size: 30px;
+  } 
+ }
 .Aboutmefootertext3{
   
   display: flex;
@@ -205,21 +264,51 @@ justify-content: center;
 }
 .myworktext{
   margin-top: 50px;
+} 
+@media all and (max-width: 500px) {
+  .card1{
+    height: 500px;
+    width: 280px;
+    margin-top: 40px;
+    margin-left: 70px;
+  }
+  .card-img-top{
+    height: 450px;
+    width: 260px;
+    border-radius: 15px;
+  }
 }
 .card1{
   height: 500px;
   width: 280px;
   margin-top: 40px;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 .card-img-top{
-  height: 400px;
-  width: 230px;
+  height: 450px;
+  width: 250px;
   border-radius: 15px;
 }
 .card-title1{
   margin-top: 20px;
   margin-left: 80px;
+} 
+@media all and (max-width: 500px) {
+  .card1{
+    height: 500px;
+    width: 280px;
+    margin-top: 40px;
+    margin-left: 55px;
+  }
+  .card-img-top{
+    height: 450px;
+    width: 260px;
+    border-radius: 15px;
+  } 
+  .card-title1{
+    margin-top: 20px;
+    margin-left: 90px;
+  } 
 }
 .Aboutmefootertext2{
   
@@ -228,11 +317,29 @@ justify-content: center;
   font-weight: 600;
   font-size: 48px; 
 }
-.AMtext1{
+
+.AMtext-1{
   margin-top: 80px;
   font-size: 48px;
   font-weight: 600;
-}
+} 
+@media all and (max-width: 500px) {
+  .AMtext1{
+    margin-top: 80px;
+    font-size: 15px;
+    
+  } 
+  .AMtext-1{
+    margin-top: 80px;
+    font-size: 25px;
+    
+  } 
+  .AMtext-2{
+    margin-top: 10px;
+    font-size: 25px;
+    
+  } 
+} 
 
 .Aboutmefootertext4{
   
@@ -266,17 +373,34 @@ justify-content: center;
 
 
 
+  
+
 .tabcontainer{
    display: flex;
    justify-content: center;
-   margin-top: -48px;
+   margin-top: -48px; 
+   
    
 }
+
+
+
+
 .gallerycard-img-top{
   width: 320px;
   height: 350px;
   
-}
+} 
+@media all and (max-width: 500px) {
+  .gallerycard-img-top{
+    width: 220px;
+    height: 250px;
+    
+  }
+} 
+
+
+
 .buttonsection{
   display: flex;
   justify-content: center;
@@ -312,7 +436,7 @@ justify-content: center;
 }
 .hiremecontainer{
   background-color:rgba(7, 36, 37, 1) ;
-  height: 700px;  
+  height: 800px;  
 
 } 
 .hiremelogo{
@@ -324,15 +448,26 @@ justify-content: center;
   display: flex; 
   justify-content: center;
   align-items: center;
-}
+} 
 .hiremetext{
-   margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 40px;
-  color: white;
+  margin-top: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 40px;
+ color: white;
 }
+@media all and (max-width:500px) {
+  .hiremetext{
+    margin-top: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+   color: white;
+ }
+ }
+
 .hiremetext1{
   display: flex;
   justify-content: center;
@@ -349,6 +484,18 @@ justify-content: center;
  
   border-radius: 10px;
 
+}
+
+@media all and (max-width: 500px) {
+  .form{
+    width: 330px;
+    height: 340px;
+    background-color: rgba(96, 131, 133, 1);
+    margin-left: -10px;
+   
+    border-radius: 10px;
+  
+  }
 }
 .formcontainer{
   display: flex;
@@ -378,11 +525,45 @@ justify-content: center;
   border: none;
 }
 .dropdown-toggle{
-  width: 30px;
+  width: 30px; 
+  
 }
 .submitbtn{
-  margin-left: 60px;
+  margin-left: 60px; 
+ margin-left: 5px;
+  
+}
 
+@media all and (max-width: 500px) {
+  .inputbox1{
+    width: 300px;
+    height: 30px;
+    padding: 20px;
+    margin-left: 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+   
+   }
+   .input-group{
+     margin-top: 20px;
+     height: 30px;
+     width: 300px;
+     margin-left: 15px;
+     font-size: 5px;
+    
+     border-radius: 10px;
+     border: none;
+   }
+   .dropdown-toggle{
+     width: 30px;
+   }
+   .submitbtn{
+     margin-left: 60px;
+     
+   }
+   
 }
 .btn{
   width: 150px;
@@ -393,11 +574,55 @@ justify-content: center;
   font-size: 20px;
   color: black;
   border: solid 1px; 
-   justify-content: center;
+   justify-content: center;  
+   margin-left: 5px;
+   
 }
+@media all and (max-width: 500px) {
+  .btn{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    border: solid 1px; 
+     justify-content: center;  
+     margin-left: 5px;
+     
+  }
+}
+
 .reviewtext{
 display: flex;
 justify-content: center;
+} 
+.reviewlogo{
+  margin-Left:170px;
+  margin-Top:30px;  
+  height:214px;
+   width:214px;
+}
+.reviewheading{ 
+  font-Size:50px;
+  color:rgba(35, 16, 44, 1);
+  margin-Top:260px;
+  margin-Left:-330px
+}
+@media all and (max-width: 500px) {
+  .reviewlogo{
+    margin-Left:10px;
+    margin-Top:10px;  
+    height:214px;
+     width:214px;
+  }
+  .reviewheading{ 
+    font-Size:25px;
+    color:rgba(35, 16, 44, 1);
+    margin-Top:260px;
+    margin-Left:-230px
+  }
 }
 .reviewcard{
   height: 450px;
@@ -448,6 +673,57 @@ justify-content: center;
   margin-top: 40px;
 }
 
+@media all and (max-width: 500px) {
+  .reviewcard{
+    height: 450px;
+    width: 326px;
+    background-image: linear-gradient(to bottom, rgba(104, 77, 116, 1)
+    0%,  rgba(104, 77, 116, 1) 20%, rgba(35, 16, 44, 1) 20%,  rgba(35, 16, 44, 1) 100%);
+    min-height: 50vh;
+     
+  
+    margin-left: 22px;
+    margin-top: 60px;
+    border-radius: 30px;
+  
+   
+  }
+  .reviewcard-img-top{
+    height: 152px;
+    width: 148px;
+    margin-left: 90px;
+    margin-top: 30px;
+    border-radius: 80px;
+  }
+  .reviewcard-body{
+    margin-left: 120px;
+    margin-top: 40px;
+  }
+  .reviewcard2{
+    height: 450px;
+    width: 326px;
+    background-image: linear-gradient(to bottom, rgba(96, 131, 133, 1)
+    0%,  rgba(96, 131, 133, 1) 20%,rgba(7, 36, 37, 1) 20%, rgba(7, 36, 37, 1) 100%);
+    min-height: 50vh;
+     margin-left: 22px;
+    margin-top: 60px;
+    border-radius: 30px;
+  
+   
+  }
+  .reviewcard2-img-top{
+    height: 152px;
+    width: 148px;
+    margin-left: 90px;
+    margin-top: 30px;
+    border-radius: 80px;
+  }
+  .reviewcard-body2{
+    margin-left: 120px;
+    margin-top: 40px;
+  }
+}
+
 .navbar {
   background-color:rgba(35, 16, 44, 1);
   height: 100px;
@@ -475,14 +751,14 @@ justify-content: center;
 }
 
 .nav-logo {
-  color: #f5b921;
+  
   align-items: center;
    margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+   width: 135px;
   flex-grow: 1;
-
+   height: 135px;
   display: flex;
   align-items: center;
   justify-items: center;

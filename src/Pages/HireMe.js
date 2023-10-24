@@ -35,7 +35,7 @@ function HireMe (){
     <li className="dropdown-item"> Action</li>
    
    
-  </ul><span><div className="submitbtn"><button type="button" className="btn btn-primary">Submit</button></div></span>
+  </ul><div className="submitbtn"><button type="button" className="btn btn-primary">Submit</button></div>
 </div>
 
 </div>
@@ -44,9 +44,9 @@ function HireMe (){
 </div>
 <div className="reviewtext">
 <div>
-                <img style={{marginLeft:"170px", marginTop:"30px", height:"214px", width:"214px"}} src={Clientlogo} alt="..."/>
+                <img className="reviewlogo"  src={Clientlogo} alt="..."/>
             </div>
-    <p style={{fontSize:"50px",color:"rgba(35, 16, 44, 1)",marginTop:"260px", marginLeft:"-330px"}}><b>Client's Experiecnce</b></p>
+    <p className="reviewheading" ><b>Client's Experiecnce</b></p>
 </div>
 
 
