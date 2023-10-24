@@ -9,6 +9,8 @@
   font-family: "Jost", sans-serif;
 }
 
+
+
 html {
   font-size: 62.5%;
 }
@@ -52,6 +54,8 @@ li {
 
   
 
+  
+
 .menu-link ul {
   height: 8rem;
   display: flex;
@@ -60,6 +64,7 @@ li {
   color: white;
   
 }
+
 
 .heading1{
   font-size:x-large;
@@ -73,12 +78,17 @@ li {
 .headercontainer{
   background-color: rgba(35, 16, 44, 1);
 }
-
+.hlogo{
+display: flex;
+align-items: center;
+justify-content: center;
+}
 .headerlogo{
   margin-top: 5px;
- margin-left: 621px;
+ 
  height: 115px;
- width: 138px;
+ width: 138px;  
+ 
 }
 
 .headertext{
@@ -149,7 +159,8 @@ li {
 .cardcontainer{
   display: flex;
   justify-content: center;
-  background-color: rgba(7, 36, 37, 1)  ;
+  background-color: rgba(7, 36, 37, 1)  ; 
+  align-items: center;
 }
 .Aboutcard-image{
   height: 320px; 
@@ -232,11 +243,22 @@ li {
 }
 .gallerylogo{
   background-color:rgba(35, 16, 44, 1); 
-  height: 350px;
+  height: 180px;
   width: 100%;
-  color: white;
-  
+ 
+  display: flex;
+   justify-content: center;
   align-items: center;
+ 
+} 
+.gallerytext{ 
+  background-color:rgba(35, 16, 44, 1); 
+  height: 120px;
+  width: 100%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;  
+  color: white;  
   font-size: 40px;
 }
 
@@ -289,7 +311,18 @@ li {
 }
 .hiremecontainer{
   background-color:rgba(7, 36, 37, 1) ;
-  height: 700px;
+  height: 700px;  
+
+} 
+.hiremelogo{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+} 
+.htext{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 .hiremetext{
    margin-top: 40px;
@@ -311,10 +344,15 @@ li {
   width: 1115px;
   height: 290px;
   background-color: rgba(96, 131, 133, 1);
+   
  
-  margin-left: 8%;
   border-radius: 10px;
 
+}
+.formcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .inputbox1{
  width: 280px;
@@ -353,7 +391,8 @@ li {
   background-color: white;
   font-size: 20px;
   color: black;
-  border: solid 1px;
+  border: solid 1px; 
+   justify-content: center;
 }
 .reviewtext{
 display: flex;

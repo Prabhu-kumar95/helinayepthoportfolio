@@ -6,11 +6,14 @@ function Gallery (){
         <div>
          <div className="gallerylogo">
             <div>
-                <img style={{marginLeft:"600px", marginTop:"30px", height:"115px", width:"138px"}} src={Gallerylogo} alt="..."/>
+                <img style={{ marginTop:"10px", height:"115px", width:"138px"}} src={Gallerylogo} alt="..."/>
             </div>
-            <p style={{fontSize:"40px", marginLeft:"600px", marginTop:"30px"}} >Gallery</p>
+          
+         </div> 
+         <div className="gallerytext">
+         <p style={{fontSize:"40px",marginTop:"-50px"}} >Gallery</p>
          </div>
-        
+       
 
         </div>
     )

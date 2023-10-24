@@ -8,10 +8,10 @@ function HireMe (){
     return(
         <div>
 <div className="hiremecontainer">
-<div>
-                <img style={{marginLeft:"600px", marginTop:"60px", height:"115px", width:"138px"}} src={Hirelogo} alt="..."/>
+<div className="hiremelogo">
+                <img style={{ marginTop:"60px", height:"115px", width:"138px"}} src={Hirelogo} alt="..."/>
             </div>
-<div>
+<div className="htext">
     <p className="hiremetext">Ready To Work With Me?</p>
 </div>
 <div className="hiremetext1">
@@ -19,6 +19,7 @@ function HireMe (){
     ---  The Helina Yeptho Photography ---
   </p>
 </div>
+<div className="formcontainer">
 <div className="form">
     <div className="inputbox">
     <input className="inputbox1" placeholder="Name" type="text"/>
@@ -39,6 +40,7 @@ function HireMe (){
 
 </div>
 
+</div> 
 </div>
 <div className="reviewtext">
 <div>
