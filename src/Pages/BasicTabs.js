@@ -62,10 +62,10 @@ export default function BasicTabs() {
   allowScrollButtonsMobile
   aria-label="scrollable force tabs example">
             
-          <Tab  sx={{fontSize:"18px",fontFamily:"sans-serif",marginLeft:"170px",color:"black"}} label="Portrait" {...a11yProps(0)} />
-          <Tab  sx={{fontSize:"18px",fontFamily:"sans-serif",color:"black",marginLeft:"80px"}} label="Couple" {...a11yProps(1)} />
-          <Tab  sx={{fontSize:"18px",fontFamily:"sans-serif",color:"black",marginLeft:"80px"}} label="Wedding" {...a11yProps(2)} />
-          <Tab  sx={{fontSize:"18px",fontFamily:"sans-serif",color:"black",marginLeft:"80px"}} label="Event" {...a11yProps(3)} />
+          <Tab sx={{fontSize:"18px",fontFamily:"sans-serif",marginLeft:"48px",color:"black"}} label="Portrait" {...a11yProps(0)} />
+          <Tab  sx={{fontSize:"18px",fontFamily:"sans-serif",color:"black",marginLeft:"140px"}} label="Couple" {...a11yProps(1)} />
+          <Tab  sx={{fontSize:"18px",fontFamily:"sans-serif",color:"black",marginLeft:"140px"}} label="Wedding" {...a11yProps(2)} />
+          <Tab  sx={{fontSize:"18px",fontFamily:"sans-serif",color:"black",marginLeft:"140px"}} label="Event" {...a11yProps(3)} />
           
         </Tabs>
       </Box>

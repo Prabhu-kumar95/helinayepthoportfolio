@@ -58,7 +58,7 @@ function HireMe (){
         <h5 class="card-title" style={{fontSize:"25px",color:"white", marginLeft:"-30px"}}>Nayara Shasa</h5>
         <p class="card-text" style={{fontSize:"15px",color:"white",marginLeft:"-20px"}}>Event Project Client</p>
         <div style={{borderBottom:"solid 1px",color:"silver",width:"92px",marginTop:"30px"}}></div>
-        <p style={{fontSize:"15px",color:"white",marginLeft:"-80px",marginTop:"40px"}}>It was a Great experience with helina. Wonderful coordination and had a 
+        <p className="card-para" >It was a Great experience with helina. Wonderful coordination and had a 
 fun clicking with them in & out 
 it was perfect .</p>
       </div>
@@ -71,7 +71,7 @@ it was perfect .</p>
         <h5 class="card-title"  style={{fontSize:"25px",color:"white",marginLeft:"-40px"}}>Sophia Vergesra</h5>
         <p class="card-text" style={{fontSize:"15px",color:"white",marginLeft:"-20px"}}>Portrait Project Client</p>
         <div style={{borderBottom:"solid 1px",color:"silver",width:"154px",marginTop:"30px",marginLeft:"-30px"}}></div>
-        <p style={{fontSize:"15px",color:"white",marginLeft:"-80px",marginTop:"40px"}}>It was a Great experience with helina. Wonderful coordination and had a 
+        <p className="card-para" >It was a Great experience with helina. Wonderful coordination and had a 
 fun clicking with them in & out 
 it was perfect .</p>
       </div>
@@ -84,7 +84,7 @@ it was perfect .</p>
         <h5 class="card-title"  style={{fontSize:"25px",color:"white",marginLeft:"-20px"}}>Amelia Meisi</h5>
         <p class="card-text" style={{fontSize:"15px",color:"white",marginLeft:"-20px"}}>Wedding Project Client</p>
         <div style={{borderBottom:"solid 1px",color:"silver",width:"92px",marginTop:"30px"}}></div>
-        <p style={{fontSize:"15px",color:"white",marginLeft:"-80px",marginTop:"40px"}}>It was a Great experience with helina. Wonderful coordination and had a 
+        <p className="card-para" >It was a Great experience with helina. Wonderful coordination and had a 
 fun clicking with them in & out 
 it was perfect .</p>
       </div>
