@@ -235,7 +235,7 @@ export default function BasicTabs() {
    
     </div>
     <div className='buttonsection'>
-    <Link to={"/Hireme"} type="button" class="btn btn-primary">Hire Me</Link>
+    <Link to={"/Hireme"} className='hiremebtn' type="button" class="hiremebtn btn-primary">Hire Me</Link>
     </div>
     <div className='Aboutmefootertext2'>
      <p className='AMtext1'>Their Dream Come True, Let's Make Yours</p>
@@ -252,15 +252,15 @@ export default function BasicTabs() {
 </div>
 <div className='galleryfooter'>
     <div className='gfooter'>
-        <h2 style={{marginTop:"50px",marginLeft:"130px",color:"white"}}>Thanks For Scrolling Down</h2><span><h2 style={{marginTop:"50px",marginLeft:"700px",color:"white"}}>Follow Me On</h2></span>
+        <h2 className='gheading'>Thanks For Scrolling Down</h2><span><h2 className='gheading1'>Follow Me On</h2></span>
         </div>
         <div style={{display:"flex"}}>
-        <Link to={"/"} style={{marginLeft:"130px", marginTop:"15px", color:" rgba(35, 16, 44, 1)", width:"120px"}} type="button" class="btn btn-light">Go Back</Link><span> <img style={{marginLeft:"765px", marginTop:"15px"}} src={icons} alt="..."/></span>
+        <Link to={"/"} className='gbutton'  type="button" class="btngbutton btn-light">Go Back</Link><span> <img className="socialicons"  src={icons} alt="..."/></span>
         </div>
-        <div style={{borderBottom:"solid 1px",color:"silver",width:"1119px",marginTop:"80px",marginLeft:"110px"}}></div>
-        <p style={{fontSize:"15px",marginTop:"20px",marginLeft:"550px",color:"white"}}>All rights  reserved @ helinayeptho.Com  
+        <div className='gline' ></div>
+        <p className='gbottomtext1' >All rights  reserved @ helinayeptho.Com  
 </p>
-<p style={{fontSize:"15px",marginLeft:"560px",color:"white"}}>Designed And Build By Sam Donald  
+<p className='gbottomtext2'>Designed And Build By Sam Donald  
 </p>
 </div>
     </div>
