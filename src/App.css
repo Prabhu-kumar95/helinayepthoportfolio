@@ -485,9 +485,9 @@ font-size: 20px;
 }
 @media  screen and (max-width:767px) {
   .hiremebtn{
-  width: 95px;
-  height: 35px;
-  font-size: 25px;
+  width: 60px;
+  height: 22px;
+  font-size: 15px;
   border: solid 1px;
   border-radius: 5px;
   color: black;
@@ -575,7 +575,7 @@ font-size: 20px;
   
 .gheading{
   margin-top:50px;
-  margin-left:20px;
+  margin-left:35px;
   color:white ;
   font-size:12px;
   
@@ -587,7 +587,7 @@ font-size: 20px;
   font-size:12px;
 } 
 .btngbutton{
-  margin-left:20px;
+  margin-left:35px;
   margin-top:15px;
   border: solid 1px;
   width:70px; 
@@ -608,18 +608,18 @@ font-size: 20px;
   color:silver;
   width:269px;
   margin-top:40px;
-  margin-left:40px;
+  margin-left:50px;
 }
 .gbottomtext1{
   font-size:15px;
   margin-top:20px;
-  margin-left:50px;
+  margin-left:60px;
   color:white;
 }
 .gbottomtext2{
   font-size:12px;
  
-  margin-left:80px;
+  margin-left:90px;
   color:white;
 }
 }
