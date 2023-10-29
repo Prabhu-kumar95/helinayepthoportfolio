@@ -8,6 +8,12 @@ import Gallery from './Gallery';
 import icons from "../Images/icons.svg"
 import { Link } from 'react-router-dom';
 
+import SliderImg1 from "../Images/Helina Yeptho/Bride 1 1.png" 
+import SliderImg2 from "../Images/Helina Yeptho/Bride 1.png"
+
+import SliderImg4 from "../Images/Helina Yeptho/bridegroom 1.png"
+import SliderImg5 from "../Images/Helina Yeptho/wedding table 1.png"
+
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -53,8 +59,7 @@ export default function BasicTabs() {
       <Gallery></Gallery>
     <div className='tabcontainer'>
         
-    <Box sx={{ width: '80%', boxShadow:" 0px 0px 19px -3px rgba(0, 0, 0, 0.52)"
-,borderRadius:"10px",backgroundColor:"rgba(255, 255, 255, 1)"}}>
+    <Box className="box">
       <Box sx={{ borderBottom: 1, borderColor: 'silver',borderRadius:"8px"}}>
       
         <Tabs  value={value} onChange={handleChange}  variant="scrollable"
@@ -62,173 +67,67 @@ export default function BasicTabs() {
   allowScrollButtonsMobile
   aria-label="scrollable force tabs example">
             
-          <Tab sx={{fontSize:"18px",fontFamily:"sans-serif",marginLeft:"48px",color:"black"}} label="Portrait" {...a11yProps(0)} />
-          <Tab  sx={{fontSize:"18px",fontFamily:"sans-serif",color:"black",marginLeft:"140px"}} label="Couple" {...a11yProps(1)} />
-          <Tab  sx={{fontSize:"18px",fontFamily:"sans-serif",color:"black",marginLeft:"140px"}} label="Wedding" {...a11yProps(2)} />
-          <Tab  sx={{fontSize:"18px",fontFamily:"sans-serif",color:"black",marginLeft:"140px"}} label="Event" {...a11yProps(3)} />
+          <Tab sx={{fontSize:"18px",fontFamily:"sans-serif",marginLeft:"38px",color:"black"}} label="Portrait" {...a11yProps(0)} />
+          <Tab  sx={{fontSize:"18px",fontFamily:"sans-serif",color:"black",marginLeft:"160px"}} label="Couple" {...a11yProps(1)} />
+          <Tab  sx={{fontSize:"18px",fontFamily:"sans-serif",color:"black",marginLeft:"160px"}} label="Wedding" {...a11yProps(2)} />
+          <Tab  sx={{fontSize:"18px",fontFamily:"sans-serif",color:"black",marginLeft:"160px"}} label="Event" {...a11yProps(3)} />
           
         </Tabs>
       </Box>
       
       <CustomTabPanel value={value} index={0}>
-      <div class="row row-cols-1 row-cols-md-3 g-4" style={{marginLeft:"7px"}}>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
+      <div className="grid-container1">
+           
+           <div className="PImg1" > <img  className="PImage1" src={SliderImg1} alt="..."/> </div>
+           <div className="PImg2"> <img className="PImage2" src={SliderImg2} alt="..."/></div>
+           <div className="PImg3"><img  className="PImage3" src={SliderImg2} alt="..."/></div>
+           <div className="PImg4"><img  className="PImage4" src={SliderImg4} alt="..."/></div>
+           <div className="PImg5"><img  className="PImage5" src={SliderImg5} alt="..."/></div>
+           <div className="PImg6"><img  className="PImage6" src={SliderImg5} alt="..."/></div>
+             
+           
+            </div>
      
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-     
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-</div>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-      <div class="row row-cols-1 row-cols-md-3 g-4" style={{marginLeft:"7px"}}>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/CPDjE4IKSaiokbqpjmWngg/178786/jess_and_keith_-_wedding-812.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/CPDjE4IKSaiokbqpjmWngg/178786/jess_and_keith_-_wedding-812.jpg" class="gallerycard-img-top" alt="..."/>
-     
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/CPDjE4IKSaiokbqpjmWngg/178786/jess_and_keith_-_wedding-812.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/CPDjE4IKSaiokbqpjmWngg/178786/jess_and_keith_-_wedding-812.jpg" class="gallerycard-img-top" alt="..."/>
-     
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/CPDjE4IKSaiokbqpjmWngg/178786/jess_and_keith_-_wedding-812.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/CPDjE4IKSaiokbqpjmWngg/178786/jess_and_keith_-_wedding-812.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-</div>
+      <div className="grid-container1">
+           
+           <div className="PImg1" > <img  className="PImage1" src={SliderImg2} alt="..."/> </div>
+           <div className="PImg2"> <img className="PImage2" src={SliderImg4} alt="..."/></div>
+           <div className="PImg3"><img  className="PImage3" src={SliderImg1} alt="..."/></div>
+           <div className="PImg4"><img  className="PImage4" src={SliderImg2} alt="..."/></div>
+           <div className="PImg5"><img  className="PImage5" src={SliderImg4} alt="..."/></div>
+           <div className="PImg6"><img  className="PImage6" src={SliderImg5} alt="..."/></div>
+             
+           
+            </div>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-      <div class="row row-cols-1 row-cols-md-3 g-4" style={{marginLeft:"7px"}}>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-     
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-     
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-</div>
+      <div className="grid-container1">
+           
+           <div className="PImg1" > <img  className="PImage1" src={SliderImg5} alt="..."/> </div>
+           <div className="PImg2"> <img className="PImage2" src={SliderImg2} alt="..."/></div>
+           <div className="PImg3"><img  className="PImage3" src={SliderImg1} alt="..."/></div>
+           <div className="PImg4"><img  className="PImage4" src={SliderImg4} alt="..."/></div>
+           <div className="PImg5"><img  className="PImage5" src={SliderImg2} alt="..."/></div>
+           <div className="PImg6"><img  className="PImage6" src={SliderImg5} alt="..."/></div>
+             
+           
+            </div>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
-      <div class="row row-cols-1 row-cols-md-3 g-4" style={{marginLeft:"7px"}}>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-     
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-     
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="gallerycard">
-      <img src="https://static.showit.co/400/GVN_T___Ttu1akFKmj5K9g/155362/jess_and_matt_s_wedding_14_of_14.jpg" class="gallerycard-img-top" alt="..."/>
-      
-    </div>
-  </div>
-</div>
+      <div className="grid-container1">
+           
+           <div className="PImg1" > <img  className="PImage1" src={SliderImg4} alt="..."/> </div>
+           <div className="PImg2"> <img className="PImage2" src={SliderImg2} alt="..."/></div>
+           <div className="PImg3"><img  className="PImage3" src={SliderImg5} alt="..."/></div>
+           <div className="PImg4"><img  className="PImage4" src={SliderImg4} alt="..."/></div>
+           <div className="PImg5"><img  className="PImage5" src={SliderImg2} alt="..."/></div>
+           <div className="PImg6"><img  className="PImage6" src={SliderImg5} alt="..."/></div>
+             
+           
+            </div>
+
       </CustomTabPanel>
     </Box>
     
@@ -255,7 +154,7 @@ export default function BasicTabs() {
         <h2 className='gheading'>Thanks For Scrolling Down</h2><span><h2 className='gheading1'>Follow Me On</h2></span>
         </div>
         <div style={{display:"flex"}}>
-        <Link to={"/"} className='gbutton'  type="button" class="btngbutton btn-light">Go Back</Link><span> <img className="socialicons"  src={icons} alt="..."/></span>
+        <Link to={"/"}  type="button" class="btngbutton btn-light">Go Back</Link><span> <img className="socialicons"  src={icons} alt="..."/></span>
         </div>
         <div className='gline' ></div>
         <p className='gbottomtext1' >All rights  reserved @ helinayeptho.Com  
@@ -266,3 +165,5 @@ export default function BasicTabs() {
     </div>
   );
 }
+
+

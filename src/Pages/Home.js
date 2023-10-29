@@ -1,15 +1,15 @@
 import React from "react";
+import Frame from "../BodyComponents/Frame";
 
-import Header from '../NavComponents/Header';
-import SliderImage from '../BodyComponents/Slider'; 
-import HomeFooter from "../BodyComponents/HomeFooter";
+// import SliderImage from '../BodyComponents/Slider'; 
+
 const Home = () => {
     return(
         <div>
       
-      <Header></Header>
-      <SliderImage></SliderImage>
-      <HomeFooter ></HomeFooter>
+     
+     <Frame></Frame>
+     
         </div>
     )
 }

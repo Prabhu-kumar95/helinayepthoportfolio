@@ -12,11 +12,8 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <div className="nav-logo">
-            <span><img src={Navlogo} alt="..."/></span>
-            {/* <i className="fas fa-code"></i> */}
-            <span className="icon">
-              
-            </span>
+            <img className="nav-logo" src={Navlogo} alt="..."/>
+           
           </div>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
